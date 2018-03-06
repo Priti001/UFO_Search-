@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="form-group">
+         <table class="table table-striped">
+          <thead>
+            <tr> <h1> UFO Search </h1>
+              <img src="ufo-thinkstock-2.jpg"  border=3 height=100 width=500>
+             </tr>
+            </thead>
+          </table> 
+        </div>  
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      <input type="text1" id="myInputDate" onkeyup="myFunction1()" placeholder="Search for Date.." title="Type in a name">
+          <input type="text2" id="myInputCity" onkeyup="myFunction2()" placeholder="Search for city.." title="Type in a name">
+          <input type="text3" id="myInputState" onkeyup="myFunction3()" placeholder="Search for State.." title="Type in a name">
+          <input type="text4" id="myInputCountry" onkeyup="myFunction4()" placeholder="Search for Country.." title="Type in a name">
+          <input type="text5" id="myInputShape" onkeyup="myFunction5()" placeholder="Search for shape.." title="Type in a name">
+
+        <table id="myTable" class="table table-striped">
+          <thead>
+            <tr>
+              <th>Datetime</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Country</th>
+              <th>Shape</th>
+              <th>DurationMin</th>
+              <th>Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+
+
+  
+</body>
+
+</html>
